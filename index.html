@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ARV pētnieks</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+      h2 > a { text-decoration: underline }
+      .output {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .output > div {
+        padding: 0 1rem 1rem 0;
+      }
+    </style>
+  </head>
+  <body class="js-dragarea">
+    <div class="container pt-6">
+      <h1 class="title">ARV pētnieks</h1>
+      <h2 class="subtitle"><a href="https://www.youtube.com/watch?v=cEGHNYuwZXM">Lauraissa 20 kg planšetes</a> attēlu apskates rīks</h2>
+      <div class="field">
+        <div class="file is-boxed">
+          <label class="file-label">
+            <input class="file-input js-file" type="file">
+            <span class="file-cta">
+              <span class="file-label">
+                Ielādē kādu .arv failu —<br>
+                Vari arī dragot te virsū
+              </span>
+            </span>
+          </label>
+        </div>
+      </div>
+      <div class="notification is-warning js-error" style="display: none"></div>
+      <div class="js-output output">
+        Lādēju sample.arv...
+      </div>
+    </div>
+  </body>
+</html>
+
